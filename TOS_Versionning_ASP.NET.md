@@ -2,11 +2,11 @@
 
 Le versioning d'API dans un projet d'application en microservices permet de :
 
--   Garantir la compatibilité entre les versions d'API, afin que les clients puissent continuer à utiliser les API existantes sans être impactés par les changements apportés aux versions plus récentes.
--   Permettre le développement simultané de plusieurs versions d'API, sans perturber les utilisateurs des versions existantes.
--   Faciliter la maintenance et l'évolution des API, en permettant de déployer de nouvelles versions sans affecter les clients existants.
+- Garantir la compatibilité entre les versions d'API, afin que les clients puissent continuer à utiliser les API existantes sans être impactés par les changements apportés aux versions plus récentes.
+- Permettre le développement simultané de plusieurs versions d'API, sans perturber les utilisateurs des versions existantes.
+- Faciliter la maintenance et l'évolution des API, en permettant de déployer de nouvelles versions sans affecter les clients existants.
 
-En résumé, le versioning d'API permet de améliorer la stabilité, la flexibilité et la maintenabilité des applications en microservices.
+En résumé, le versioning d'API permet d'améliorer la stabilité, la flexibilité et la maintenabilité des applications en microservices.
 
 ## Librairie à installer
 
@@ -55,7 +55,7 @@ Pour tester la gestion du versioning nous allons créer deux versions d'un contr
 
 ![Exemple](controller.png)
 
--   Créer une Version 1 du controller
+- Créer une Version 1 du controller
 
 ```c#
 
@@ -77,7 +77,7 @@ public class VersionController : Controller
 }
 ```
 
--   Créer Version 2 du controller
+- Créer Version 2 du controller
 
 ```c#
 
